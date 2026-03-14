@@ -223,6 +223,38 @@ section h2::after {
     transition: box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
+.project-block--thesis {
+    padding: 1.5rem;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+.project-block--thesis .project-content {
+    padding: 1rem 0 0;
+}
+
+.project-block--thesis .project-media {
+    background: transparent;
+    min-height: auto;
+    padding: 0;
+    display: flex;
+    border-radius: 0;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.project-block--thesis .project-media img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    object-fit: contain;
+    border-radius: 0;
+    display: block;
+}
+
 .project-block:hover {
     box-shadow: var(--shadow-md);
     border-color: rgba(37, 99, 235, 0.15);
@@ -299,6 +331,18 @@ section h2::after {
     padding: 1px;
 }
 
+.project-media--single-tight {
+    background: transparent;
+    min-height: auto;
+    padding: 0;
+}
+
+.project-media--single-tight img {
+    height: auto;
+    max-height: 220px;
+    padding: 0;
+}
+
 /* Project content - title and description */
 .project-content {
     display: flex;
@@ -320,6 +364,32 @@ section h2::after {
     color: var(--color-text-muted);
     line-height: 1.75;
     margin: 0;
+}
+
+.project-content--full {
+    grid-column: 1 / -1;
+}
+
+.project-status-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    background: rgba(37, 99, 235, 0.08);
+    color: var(--color-accent);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    vertical-align: middle;
+}
+
+.project-meta {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
 }
 
 .project-link {
