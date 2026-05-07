@@ -318,6 +318,27 @@ section h2::after {
     padding: 0 2px;
 }
 
+/* Phone screenshots (e.g. mobile apps) */
+.project-media--phones {
+    gap: 12px;
+    padding: 12px;
+    background: #f8fafc;
+}
+
+.project-media--phones .project-image-link {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid rgba(229, 231, 235, 0.9);
+}
+
+.project-media--phones img {
+    height: 340px;
+    padding: 0;
+    object-fit: contain;
+    background: #ffffff;
+}
+
 /* 3-image gallery: one featured on top, two below */
 .project-media--three {
     grid-template-columns: 1fr 1fr;
@@ -370,6 +391,29 @@ section h2::after {
     color: var(--color-text-muted);
     line-height: 1.75;
     margin: 0;
+}
+
+.project-bullets {
+    margin: 0.25rem 0 0;
+    padding-left: 1.1rem;
+    color: var(--color-text-muted);
+    display: grid;
+    gap: 0.5rem;
+}
+
+.project-bullets li {
+    line-height: 1.65;
+}
+
+.project-link-inline {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-link-inline:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
 }
 
 .project-content--full {
@@ -588,6 +632,16 @@ footer p {
 
     .project-media--gallery img {
         height: 160px;
+    }
+
+    .project-media--phones {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .project-media--phones img {
+        height: 280px;
+        object-fit: contain;
     }
 
     .project-content h3 {
