@@ -1,15 +1,18 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nikoletta Andreou – Computer Science student specializing in Python, web development, AI/ML, and cybersecurity. Portfolio showcasing university projects.">
+    <meta name="description" content="Nikoletta Andreou – Applied Computer Science graduate with projects in Python, machine learning, cybersecurity, web development, IoT, and software engineering.">
     <title>Nikoletta Andreou | Computer Science Portfolio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,297 +26,414 @@
     </header>
 
     <main>
+        <!-- HERO -->
         <section id="home" class="hero">
             <div class="container">
                 <div class="profile-image">
                     <img src="./img/me.jpeg" alt="Nikoletta Andreou">
                 </div>
                 <h1>Nikoletta Andreou</h1>
-                <p>BSc Applied Computer Science </p>
+                <p>BSc Applied Computer Science Graduate</p>
             </div>
         </section>
 
+        <!-- ABOUT -->
         <section id="about" class="about">
             <div class="container">
                 <h2>About Me</h2>
-                <p>I'm a Computer Science student, soon to graduate, with strong hands-on experience in programming, web development, AI/ML, networking, and cybersecurity. I specialize in Python, C++, Java, and web technologies like HTML, CSS, JavaScript, and PHP. Alongside my studies, I've worked as a Lab Assistant and completed an internship in general IT support and web development, which helped me build practical, real-world skills. I enjoy solving problems, writing clean, efficient code, and I'm always eager to take on new challenges.</p>
+                <p>
+                    I am an Applied Computer Science graduate with hands-on experience in programming, web development,
+                    machine learning, cybersecurity, networking, and software engineering. I enjoy building practical
+                    systems that combine clean code, problem-solving, and real-world technical concepts. My main interests
+                    include cybersecurity, software development, AI/ML, and secure digital systems.
+                </p>
             </div>
         </section>
 
+        <!-- PROJECTS -->
         <section id="projects" class="projects">
-  <div class="container">
-    <h2>My Projects</h2>
-    <p class="projects-note">Projects demonstrating practical application of computer science concepts.</p>
+            <div class="container">
+                <h2>My Projects</h2>
+                <p class="projects-note">
+                    Selected academic, thesis, and practical projects demonstrating software development, cybersecurity,
+                    machine learning, data analysis, networking, and systems programming skills.
+                </p>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Thesis & Research</h3>
-      <div class="project-list">
-        <article class="project-block project-block--thesis">
-          <div class="project-media project-media--single-tight">
-            <a href="./img/thesis.png" target="_blank" rel="noopener noreferrer" class="project-image-link">
-              <img src="./img/thesis.png" alt="Simulated IoT-Based Medication Monitoring System – Architecture Overview">
-            </a>
-          </div>
-          <div class="project-content">
-            <h3>
-              Simulated IoT-Based Medication Monitoring System
-              <span class="project-status-badge">In Progress</span>
-            </h3>
-            <p>Ongoing bachelor thesis project centered on the intersection of cybersecurity, AI/ML, healthcare, critical-system safety, and large-volume data analysis, using real-world clinical records from the MIMIC-IV database.</p>
-            <p><strong>Focus:</strong> IoT medical-device simulation, high-volume healthcare data pipelines, machine learning anomaly detection, and security monitoring to identify unsafe behavior and potential cyber threats in critical care environments.</p>
-            <p><strong>Technologies:</strong> Python · AI model training · Threat simulation (injected threats) · Big-volume data handling (preprocessing) · Statistical analysis</p>
-            <p class="project-meta"><strong>Role:</strong> Sole developer · Bachelor thesis project</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                <!-- THESIS -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Thesis & Research</h3>
+                    <div class="project-list">
+                        <article class="project-block project-block--thesis">
+                            <div class="project-media project-media--single-tight">
+                                <a href="./img/thesis.png" target="_blank" rel="noopener noreferrer" class="project-image-link">
+                                    <img src="./img/thesis.png" alt="Secure IoMT Medication Monitoring System">
+                                </a>
+                            </div>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Software Engineering</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/web1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/web1.png" alt="Telecommunications Platform – View 1"></a>
-            <a href="./img/web2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/web2.png" alt="Telecommunications Platform – View 2"></a>
-            <a href="./img/software1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/software1.png" alt="Telecommunications Platform – UML & Design"></a>
-            <a href="./img/software2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/software2.png" alt="Telecommunications Platform – Implementation"></a>
-          </div>
-          <div class="project-content">
-            <h3>Telecommunications Platform</h3>
-            <p>This platform is a functional prototype, developed after initializing and following the full software development life cycle from requirements and architectural planning to implementation and evaluation.</p>
-            <p>UML notation diagrams were used throughout the project, including use case, class, sequence, and activity diagrams, to structure and validate the system design before development.</p>
-            <p><strong>Technologies:</strong> Java · Object-oriented design (Java classes) · MVC (Model–View–Controller) architecture · UML (use case, class, sequence, activity)</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                            <div class="project-content">
+                                <h3>
+                                    Secure IoMT Medication Monitoring System
+                                    <span class="project-status-badge">Completed</span>
+                                </h3>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Mobile Development</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--phones">
-            <a href="./img/cat1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/cat1.png" alt="Cat GIF App – Screenshot 1"></a>
-            <a href="./img/cat2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/cat2.png" alt="Cat GIF App – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Cat GIF App (The Cat API)</h3>
-            <p><strong>Background:</strong> Every website on the internet with cat gifs has mysteriously gone down. You smell your chance to create a cat gif app, make millions, and retire young to an island… oh, wait!</p>
-            <p><strong>Goal:</strong> Demonstrate clean mobile app architecture with a simple feature: fetch and display cat gifs/images by consuming <strong>The Cat API</strong> (the API integration is the core of the challenge).</p>
-            <p><strong>Technologies:</strong> Kotlin · Jetpack Compose</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                                <p>
+                                    Bachelor thesis project combining <strong>machine learning, cybersecurity, healthcare data analysis,
+                                    and Explainable AI</strong> to detect anomalous medication infusion events in a simulated
+                                    Internet of Medical Things environment.
+                                </p>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Data Science & Machine Learning</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--three">
-            <a href="./img/data.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/data.png" alt="Streaming Platform Data Analysis – View 1"></a>
-            <a href="./img/data1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/data1.png" alt="Streaming Platform Data Analysis – View 2"></a>
-            <a href="./img/data2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/data2.png" alt="Streaming Platform Data Analysis – View 3"></a>
-          </div>
-          <div class="project-content">
-            <h3>Streaming Platform Data Analysis</h3>
-            <p>Data analysis project on streaming platform data. Processed the dataset, built a predictive model for future trends, and performed clustering to discover patterns in user behavior.</p>
-            <p><strong>Technologies:</strong> Tableau · R · AI/ML model training</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                                <ul class="project-bullets">
+                                    <li>Processed over <strong>1 million MIMIC-IV clinical records</strong>.</li>
+                                    <li>Simulated four cyberattack scenarios: rate manipulation, sudden rate change, time-gap manipulation, and replay attack.</li>
+                                    <li>Evaluated Random Forest, Logistic Regression, Isolation Forest, One-Class SVM, and Autoencoder models.</li>
+                                    <li>Achieved <strong>95.75% accuracy</strong> and <strong>97.9% anomaly recall</strong> using Random Forest.</li>
+                                    <li>Built a Streamlit dashboard with anomaly alerts, XAI explanations, AES encryption, HMAC-SHA256 verification, and security logs.</li>
+                                </ul>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Cybersecurity</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--three">
-            <a href="./img/encryption.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/encryption.png" alt="AES Encryption Program – Screenshot 1"></a>
-            <a href="./img/encryption2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/encryption2.png" alt="AES Encryption Program – Screenshot 2"></a>
-            <a href="./img/encryption3.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/encryption3.png" alt="AES Encryption Program – Screenshot 3"></a>
-          </div>
-          <div class="project-content">
-            <h3>AES Encryption Program</h3>
-            <p>Implemented a secure encryption and decryption program using the AES algorithm in Python. It ensures confidentiality of data through symmetric encryption techniques.</p>
-            <p><strong>Technologies:</strong> Python · AES (symmetric encryption)</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/snrt.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/snrt.png" alt="Snort IDS – Screenshot 1"></a>
-            <a href="./img/snrt1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/snrt1.png" alt="Snort IDS – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Snort IDS & Brute Force Detection</h3>
-            <p>Configured Snort on a Linux server to detect suspicious activities. Demonstrated detection of brute-force SSH attacks initiated from a Kali Linux machine targeting a Windows server.</p>
-            <p><strong>Technologies:</strong> Python · Snort IDS · Kali Linux & Windows Server VMs · Linux cybersecurity tooling/commands</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                                <p>
+                                    <strong>Technologies:</strong> Python · Scikit-learn · Streamlit · Pandas · Cryptography ·
+                                    Machine Learning · Cybersecurity · Explainable AI
+                                </p>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Software & Systems</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--compact">
-            <a href="./img/Pharmacy.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/Pharmacy.png" alt="Pharmacy Management System – Screenshot 1"></a>
-            <a href="./img/pharmacy1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/pharmacy1.png" alt="Pharmacy Management System – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Pharmacy Management System</h3>
-            <p>Developed using Python, this system streamlines inventory tracking and sales management for a pharmacy. The user interface was intentionally kept simple, as the core objective of the project was to build robust inventory management logic behind the scenes.</p>
-            <p><strong>Technologies:</strong> Python · Inventory management system</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/kernel.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/kernel.png" alt="Bootloader and kernel – Screenshot 1"></a>
-            <a href="./img/kernel1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/kernel1.png" alt="Bootloader and kernel – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Bootloader and kernel in assembly</h3>
-            <p>Built a simple bootloader and a basic kernel using x86 Assembly. The bootloader loads the kernel from disk into memory, demonstrating low-level system initialization. This project showcases foundational OS concepts like memory management, hardware interfacing, and direct CPU control.</p>
-            <p><strong>Technologies:</strong> x86 Assembly · Hardware-level programming</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/berkeley1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/berkeley1.png" alt="Berkeley Algorithm – Screenshot 1"></a>
-            <a href="./img/berkeley.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/berkeley.png" alt="Berkeley Algorithm – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Berkeley Algorithm in Distributed Systems</h3>
-            <p>Implemented the Berkeley algorithm in Python to synchronize clocks across multiple distributed nodes, ensuring consistency in a networked environment.</p>
-            <p><strong>Technologies:</strong> Python · Linux · Distributed systems (Berkeley clock synchronization)</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/semaphores1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/semaphores1.png" alt="Semaphores – View 1"></a>
-            <a href="./img/semaphores.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/semaphores.png" alt="Semaphores – View 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Synchronization Using Semaphores – Producer-Consumer Problem</h3>
-            <p>Implemented the classic Producer-Consumer problem using semaphores to manage synchronization between threads. Ensured safe access to a shared buffer by handling mutual exclusion and avoiding race conditions in a multithreaded environment.</p>
-            <p><strong>Technologies:</strong> Python · Linux · Concurrency (semaphores)</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                                <p class="project-meta">
+                                    <strong>Role:</strong> Sole developer · Bachelor thesis project · 2026
+                                </p>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Web Development</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--three">
-            <a href="./img/toy.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/toy.png" alt="Toy for You – View 1"></a>
-            <a href="./img/toy1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/toy1.png" alt="Toy for You – View 2"></a>
-            <a href="./img/toy2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/toy2.png" alt="Toy for You – View 3"></a>
-          </div>
-          <div class="project-content">
-            <h3>Toy for You</h3>
-            <p>A working website for a Cyprus-based company. The project involved data processing before building the site. Email was configured for the contact form so it is fully workable and sends messages directly to the client's email.</p>
-            <p><strong>Technologies:</strong> HTML · CSS · JavaScript · SQL database · Large-volume data handling · Hosting & deployment</p>
-            <a href="https://toyforyou.org/" target="_blank" rel="noopener noreferrer" class="project-link">Visit website →</a>
-          </div>
-        </article>
-      </div>
-    </div>
+                                <a href="https://github.com/NikolettaAndreou/secure-iomt-medication-monitoring-system" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    View GitHub Repository →
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Game Development</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--three">
-            <a href="./img/UntilTheEnd.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/UntilTheEnd.png" alt="Until the End Game – Screenshot 1"></a>
-            <a href="./img/UntilTheEnd2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/UntilTheEnd2.png" alt="Until the End Game – Screenshot 2"></a>
-            <a href="./img/UntilTheEnd3.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/UntilTheEnd3.png" alt="Until the End Game – Screenshot 3"></a>
-          </div>
-          <div class="project-content">
-            <h3>Until the End Game</h3>
-            <p>A 3D survival game developed in Unity, featuring interactive gameplay.</p>
-            <p><strong>Technologies:</strong> Unity · C#</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/rollerball.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/rollerball.png" alt="Rollerball Unity – Screenshot 1"></a>
-            <a href="./img/rollerball2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/rollerball2.png" alt="Rollerball Unity – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Rollerball Unity</h3>
-            <p>A 3D ball rolling game developed in Unity, featuring physics-based gameplay and obstacle navigation.</p>
-            <p><strong>Technologies:</strong> Unity · C#</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/maze.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/maze.png" alt="Maze Solving Game – Screenshot 1"></a>
-            <a href="./img/maze1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/maze1.png" alt="Maze Solving Game – Screenshot 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Maze Solving Game</h3>
-            <p>An interactive maze game that demonstrates various pathfinding algorithms (DFS, BFS, Dijkstra's) with visual representation of the solving process.</p>
-            <p><strong>Technologies:</strong> Python · Pathfinding algorithms (DFS, BFS, Dijkstra)</p>
-          </div>
-        </article>
-      </div>
-    </div>
+                <!-- SOFTWARE ENGINEERING -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Software Engineering</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/web1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/web1.png" alt="Telecommunications Platform Screenshot 1"></a>
+                                <a href="./img/web2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/web2.png" alt="Telecommunications Platform Screenshot 2"></a>
+                                <a href="./img/software1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/software1.png" alt="Telecommunications Platform UML Diagram"></a>
+                                <a href="./img/software2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/software2.png" alt="Telecommunications Platform Implementation"></a>
+                            </div>
 
-    <div class="project-category">
-      <h3 class="project-category-title">Networking</h3>
-      <div class="project-list">
-        <article class="project-block">
-          <div class="project-media project-media--gallery project-media--three">
-            <a href="./img/fire.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/fire.png" alt="Fire Sprinkler Networking Project – View 1"></a>
-            <a href="./img/fire1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/fire1.png" alt="Fire Sprinkler Networking Project – View 2"></a>
-            <a href="./img/fire2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/fire2.png" alt="Fire Sprinkler Networking Project – View 3"></a>
-          </div>
-          <div class="project-content">
-            <h3>Simple Fire Sprinkler IoT Project</h3>
-            <p>Designed and simulated a simple IoT-based fire sprinkler system where sensor nodes communicate alerts to a central controller. Configured network topologies, routing, and monitoring to ensure reliable, low-latency delivery of emergency signals.</p>
-            <p><strong>Technologies:</strong> Cisco Packet Tracer · Network configuration</p>
-          </div>
-        </article>
-        <article class="project-block">
-          <div class="project-media project-media--gallery">
-            <a href="./img/home.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/home.png" alt="Smart Home Project – View 1"></a>
-            <a href="./img/home1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/home1.png" alt="Smart Home Project – View 2"></a>
-          </div>
-          <div class="project-content">
-            <h3>Smart Home Network</h3>
-            <p>Developed a smart home networking project connecting sensors, actuators, and network devices (alarms, routers, and servers) over a shared network. Focused on device communication, centralized control, and monitoring of home automation events.</p>
-            <p><strong>Technologies:</strong> Cisco Packet Tracer · Network configuration</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
+                            <div class="project-content">
+                                <h3>Telecommunications Platform</h3>
+                                <p>
+                                    Functional software engineering prototype developed by following the software development life cycle,
+                                    from requirements analysis and system design to implementation and evaluation.
+                                </p>
+                                <p>
+                                    UML diagrams, including use case, class, sequence, and activity diagrams, were used to design
+                                    and validate the system before implementation.
+                                </p>
+                                <p>
+                                    <strong>Technologies:</strong> Java · Object-Oriented Programming · MVC Architecture · UML
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
 
+                <!-- MOBILE DEVELOPMENT -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Mobile Development</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--phones">
+                                <a href="./img/cat1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/cat1.png" alt="Cat GIF App Screenshot 1"></a>
+                                <a href="./img/cat2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/cat2.png" alt="Cat GIF App Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Cat GIF App</h3>
+                                <p>
+                                    Android application that consumes The Cat API to fetch and display cat images and GIFs.
+                                    The project demonstrates API integration, clean UI structure, and mobile application development.
+                                </p>
+                                <p><strong>Technologies:</strong> Kotlin · Jetpack Compose · REST API Integration</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- DATA SCIENCE -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Data Science & Machine Learning</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--three">
+                                <a href="./img/data.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/data.png" alt="Streaming Platform Data Analysis Screenshot 1"></a>
+                                <a href="./img/data1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/data1.png" alt="Streaming Platform Data Analysis Screenshot 2"></a>
+                                <a href="./img/data2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/data2.png" alt="Streaming Platform Data Analysis Screenshot 3"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Streaming Platform Data Analysis</h3>
+                                <p>
+                                    Data analysis project using streaming platform data. The project included data processing,
+                                    trend analysis, predictive modelling, and clustering to identify patterns in user behavior.
+                                </p>
+                                <p><strong>Technologies:</strong> Tableau · R · Data Analysis · Machine Learning</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- CYBERSECURITY -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Cybersecurity</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--three">
+                                <a href="./img/encryption.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/encryption.png" alt="AES Encryption Program Screenshot 1"></a>
+                                <a href="./img/encryption2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/encryption2.png" alt="AES Encryption Program Screenshot 2"></a>
+                                <a href="./img/encryption3.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/encryption3.png" alt="AES Encryption Program Screenshot 3"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>AES Encryption Program</h3>
+                                <p>
+                                    Secure encryption and decryption program implemented in Python using the AES symmetric
+                                    encryption algorithm to protect data confidentiality.
+                                </p>
+                                <p><strong>Technologies:</strong> Python · AES · Cryptography</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/snrt.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/snrt.png" alt="Snort IDS Screenshot 1"></a>
+                                <a href="./img/snrt1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/snrt1.png" alt="Snort IDS Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Snort IDS & Brute Force Detection</h3>
+                                <p>
+                                    Configured Snort IDS on a Linux environment to detect suspicious network activity.
+                                    Demonstrated brute-force SSH detection using a Kali Linux attacker machine and a Windows target server.
+                                </p>
+                                <p><strong>Technologies:</strong> Snort IDS · Kali Linux · Windows Server · Linux · Network Security</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- SOFTWARE & SYSTEMS -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Software & Systems</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--compact">
+                                <a href="./img/Pharmacy.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/Pharmacy.png" alt="Pharmacy Management System Screenshot 1"></a>
+                                <a href="./img/pharmacy1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/pharmacy1.png" alt="Pharmacy Management System Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Pharmacy Management System</h3>
+                                <p>
+                                    Python-based system designed to support pharmacy inventory tracking and sales management.
+                                    The focus was on robust backend logic and simple, functional user interaction.
+                                </p>
+                                <p><strong>Technologies:</strong> Python · Inventory Management · File/Data Handling</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/kernel.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/kernel.png" alt="Bootloader and Kernel Screenshot 1"></a>
+                                <a href="./img/kernel1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/kernel1.png" alt="Bootloader and Kernel Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Bootloader and Kernel in Assembly</h3>
+                                <p>
+                                    Built a simple bootloader and basic kernel using x86 Assembly. The project demonstrates
+                                    low-level system initialization, memory handling, hardware interfacing, and direct CPU control.
+                                </p>
+                                <p><strong>Technologies:</strong> x86 Assembly · Low-Level Programming · Operating Systems</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/berkeley1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/berkeley1.png" alt="Berkeley Algorithm Screenshot 1"></a>
+                                <a href="./img/berkeley.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/berkeley.png" alt="Berkeley Algorithm Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Berkeley Algorithm in Distributed Systems</h3>
+                                <p>
+                                    Implemented the Berkeley clock synchronization algorithm to coordinate time across multiple
+                                    distributed nodes in a networked environment.
+                                </p>
+                                <p><strong>Technologies:</strong> Python · Distributed Systems · Linux</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/semaphores1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/semaphores1.png" alt="Semaphores Screenshot 1"></a>
+                                <a href="./img/semaphores.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/semaphores.png" alt="Semaphores Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Producer-Consumer Synchronization Using Semaphores</h3>
+                                <p>
+                                    Implemented the classic Producer-Consumer problem using semaphores to control access to a shared buffer,
+                                    handle mutual exclusion, and avoid race conditions.
+                                </p>
+                                <p><strong>Technologies:</strong> Python · Linux · Concurrency · Semaphores</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- WEB DEVELOPMENT -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Web Development</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--three">
+                                <a href="./img/toy.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/toy.png" alt="Toy for You Screenshot 1"></a>
+                                <a href="./img/toy1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/toy1.png" alt="Toy for You Screenshot 2"></a>
+                                <a href="./img/toy2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/toy2.png" alt="Toy for You Screenshot 3"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Toy for You</h3>
+                                <p>
+                                    Working website for a Cyprus-based toy business. The project involved product data preparation,
+                                    website development, hosting setup, and email configuration for the contact form.
+                                </p>
+                                <p><strong>Technologies:</strong> HTML · CSS · JavaScript · SQL · Hosting · Web Deployment</p>
+                                <a href="https://toyforyou.org/" target="_blank" rel="noopener noreferrer" class="project-link">Visit Website →</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- GAME DEVELOPMENT -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Game Development</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--three">
+                                <a href="./img/UntilTheEnd.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/UntilTheEnd.png" alt="Until the End Game Screenshot 1"></a>
+                                <a href="./img/UntilTheEnd2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/UntilTheEnd2.png" alt="Until the End Game Screenshot 2"></a>
+                                <a href="./img/UntilTheEnd3.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/UntilTheEnd3.png" alt="Until the End Game Screenshot 3"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Until the End</h3>
+                                <p>
+                                    3D survival game developed in Unity with interactive gameplay and game mechanics.
+                                </p>
+                                <p><strong>Technologies:</strong> Unity · C# · Game Development</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/rollerball.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/rollerball.png" alt="Rollerball Unity Screenshot 1"></a>
+                                <a href="./img/rollerball2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/rollerball2.png" alt="Rollerball Unity Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Rollerball Unity</h3>
+                                <p>
+                                    3D ball rolling game developed in Unity, featuring physics-based gameplay and obstacle navigation.
+                                </p>
+                                <p><strong>Technologies:</strong> Unity · C# · Physics-Based Gameplay</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/maze.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/maze.png" alt="Maze Solving Game Screenshot 1"></a>
+                                <a href="./img/maze1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/maze1.png" alt="Maze Solving Game Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Maze Solving Game</h3>
+                                <p>
+                                    Interactive maze game demonstrating pathfinding algorithms with visual representation of the solving process.
+                                </p>
+                                <p><strong>Technologies:</strong> Python · DFS · BFS · Dijkstra</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- NETWORKING -->
+                <div class="project-category">
+                    <h3 class="project-category-title">Networking</h3>
+                    <div class="project-list">
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery project-media--three">
+                                <a href="./img/fire.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/fire.png" alt="Fire Sprinkler IoT Project Screenshot 1"></a>
+                                <a href="./img/fire1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/fire1.png" alt="Fire Sprinkler IoT Project Screenshot 2"></a>
+                                <a href="./img/fire2.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/fire2.png" alt="Fire Sprinkler IoT Project Screenshot 3"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Simple Fire Sprinkler IoT Project</h3>
+                                <p>
+                                    Designed and simulated an IoT-based fire sprinkler system where sensors communicate alerts
+                                    to a central controller through a configured network topology.
+                                </p>
+                                <p><strong>Technologies:</strong> Cisco Packet Tracer · IoT Simulation · Network Configuration</p>
+                            </div>
+                        </article>
+
+                        <article class="project-block">
+                            <div class="project-media project-media--gallery">
+                                <a href="./img/home.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/home.png" alt="Smart Home Network Screenshot 1"></a>
+                                <a href="./img/home1.png" target="_blank" rel="noopener noreferrer" class="project-image-link"><img src="./img/home1.png" alt="Smart Home Network Screenshot 2"></a>
+                            </div>
+
+                            <div class="project-content">
+                                <h3>Smart Home Network</h3>
+                                <p>
+                                    Smart home network simulation connecting sensors, actuators, alarms, routers, and servers
+                                    for centralized monitoring and home automation.
+                                </p>
+                                <p><strong>Technologies:</strong> Cisco Packet Tracer · Smart Home Simulation · Networking</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
         <section id="contact" class="contact">
             <div class="container">
                 <h2>Contact Me</h2>
-                <p class="contact-intro">Feel free to reach out. I'm always open to discussing new opportunities.</p>
+                <p class="contact-intro">Feel free to reach out. I am open to discussing graduate, software development, cybersecurity, QA, and IT opportunities.</p>
                 <a href="mailto:andreou_nikoletta@hotmail.com" class="contact-cta">andreou_nikoletta@hotmail.com</a>
             </div>
         </section>
     </main>
+
     <footer>
         <div class="container">
             <p>&copy; <span id="year"></span> Nikoletta Andreou. All rights reserved.</p>
         </div>
     </footer>
 
+    <!-- LIGHTBOX -->
     <div id="lightbox" class="lightbox" aria-hidden="true">
         <button class="lightbox-close" aria-label="Close">&times;</button>
         <button class="lightbox-prev" aria-label="Previous image">&lsaquo;</button>
         <button class="lightbox-next" aria-label="Next image">&rsaquo;</button>
+
         <div class="lightbox-content">
             <img src="" alt="" id="lightbox-img">
         </div>
+
         <span class="lightbox-counter" id="lightbox-counter"></span>
     </div>
 
@@ -392,4 +512,5 @@
         })();
     </script>
 </body>
-</html> 
+</html>
+```
