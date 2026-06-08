@@ -662,4 +662,9 @@ footer p {
         height: 2.75rem;
         font-size: 1.75rem;
     }
+    .project-block--thesis .project-status-badge {
+    background: rgba(22, 163, 74, 0.08);
+    color: #15803d;
+    border-color: rgba(22, 163, 74, 0.2);
+}
 }
